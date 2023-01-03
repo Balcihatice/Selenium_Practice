@@ -1,4 +1,4 @@
-package ders_Notlari01;
+package day_01_02_03;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;

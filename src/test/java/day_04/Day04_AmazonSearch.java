@@ -1,4 +1,4 @@
-package Ders_Notlari_XpathCss;
+package day_04;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;

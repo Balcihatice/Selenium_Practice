@@ -1,4 +1,4 @@
-package ders_Notlari01;
+package day_01_02_03;
 
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Point;
