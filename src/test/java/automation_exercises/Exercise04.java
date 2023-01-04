@@ -2,10 +2,8 @@ package automation_exercises;
 
 public class Exercise04 {
 
-//    Test Case 4: Logout User
-//1. Launch browser
 //2. Navigate to url 'http://automationexercise.com'
-//            3. Verify that home page is visible successfully
+//3. Verify that home page is visible successfully
 //4. Click on 'Signup / Login' button
 //5. Verify 'Login to your account' is visible
 //6. Enter correct email address and password
