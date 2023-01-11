@@ -35,14 +35,13 @@ public class Day05_Challenge extends TestBase {
         driver.findElement(By.xpath("//button[@class='btn btn-inverse btn-block btn-lg dropdown-toggle']")).click();
 
         // get the names of list from the cart
+        // compare the names from displaying list and cart list
         List<WebElement> sepet = driver.findElements(By.xpath("//*[@class='text-left']"));
         for (WebElement sepettekiUrun : sepet) {
            if(telefonAdi.contains(sepettekiUrun)){
                System.out.println("Test PASSED");
            }else System.out.println("Test Failed");
         }
-        // compare the names from displaying list and cart list
-
 
 
     }
