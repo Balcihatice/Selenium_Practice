@@ -18,10 +18,10 @@ public class C03_Actions extends TestBase {
 
         //"drag me" butonunu tutup "Drop here" kutusunun uzerine birakin
 
-        WebElement dragMe = driver.findElement(By.xpath("//*[text()='Drag me']"));
-        WebElement drogHere = driver.findElement(By.xpath("//*[text()='Drop here']"));
+        WebElement tasinacakElement = driver.findElement(By.xpath("//*[text()='Drag me']"));
+        WebElement hedefElement = driver.findElement(By.xpath("//*[text()='Drop here']"));
         Actions action = new Actions(driver);
-        action.dragAndDrop(dragMe, drogHere).perform();
+        action.dragAndDrop(tasinacakElement, hedefElement).perform();
 
         //"Drop here" yazisini yerine "Dropped!" oldugunu test edin
         WebElement dropped = driver.findElement(By.xpath("//*[text()='Dropped!']"));
