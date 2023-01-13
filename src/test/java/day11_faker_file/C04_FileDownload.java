@@ -19,7 +19,7 @@ public class C04_FileDownload extends TestBase {
         driver.get("https://the-internet.herokuapp.com/download");
 
         //  empty.txt dosyasini indirelim
-        WebElement empty = driver.findElement(By.xpath("//*[text()='empty.txt']"));
+        WebElement empty = driver.findElement(By.xpath("//*[text()='some-file.txt']"));
         empty.click();
 
         waitFor(6);
@@ -29,7 +29,7 @@ public class C04_FileDownload extends TestBase {
         //Burada bize downloadun dosya yolu lazim
 
         String farkliKisim = System.getProperty("user.home");
-        String ortakKisim = "//Downloads/empty.txt";
+        String ortakKisim = "//Downloads/some-file.txt";
 
         String arananDosyaYolu = farkliKisim + ortakKisim;
 
