@@ -1,6 +1,5 @@
-package day10;
+package day10_actions;
 
-import com.beust.ah.A;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;

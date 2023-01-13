@@ -1,4 +1,4 @@
-package day10;
+package day10_actions;
 
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -24,9 +24,9 @@ public class C05_Actions_Keyboard extends TestBase {
         WebElement name = driver.findElement(By.xpath("//*[@name='firstname']"));
         Actions actions = new Actions(driver);
         actions.click(name)
-                .sendKeys("Taha")
-                .sendKeys(Keys.TAB,"Alsoy",Keys.TAB,"t@gmail.com",Keys.TAB
-                        ,"1234",Keys.TAB,Keys.TAB,"12",Keys.TAB,"06",Keys.TAB,"2022",Keys.TAB,Keys.TAB
-                ,Keys.ENTER,Keys.TAB,Keys.TAB,Keys.TAB,Keys.TAB,Keys.TAB,Keys.ENTER).perform();
+                .sendKeys("Taha", Keys.TAB, "Alsoy", Keys.TAB, "t@gmail.com", Keys.TAB
+                        , "Ta1234.", Keys.TAB, Keys.TAB, "Jane", Keys.TAB, "06", Keys.TAB, "2000", Keys.TAB, Keys.TAB
+                        , Keys.ARROW_DOWN, Keys.TAB, Keys.TAB, Keys.TAB,Keys.TAB,Keys.TAB,Keys.TAB,Keys.ENTER).perform();
+        waitFor(5);
     }
 }

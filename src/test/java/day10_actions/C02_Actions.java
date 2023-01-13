@@ -1,4 +1,4 @@
-package day10;
+package day10_actions;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -7,7 +7,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import utilities.TestBase;
 
-import java.util.Locale;
 import java.util.Set;
 
 public class C02_Actions extends TestBase {

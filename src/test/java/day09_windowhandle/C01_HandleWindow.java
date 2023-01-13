@@ -1,4 +1,4 @@
-package day09;
+package day09_windowhandle;
 
 import org.junit.Test;
 import org.openqa.selenium.By;
