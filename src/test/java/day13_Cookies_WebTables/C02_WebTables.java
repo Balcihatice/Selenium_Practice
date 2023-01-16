@@ -65,6 +65,7 @@ public class C02_WebTables extends TestBase {
         driver.get("https://www.hotelmycamp.com");
         driver.findElement(By.xpath("//*[@text()='Log in']")).click();
         Actions actions = new Actions(driver);
+
         WebElement userName = driver.findElement(By.id("UserName"));
         actions.click(userName)
                 .sendKeys("manager")
