@@ -61,6 +61,7 @@ public class C02_WebTables extends TestBase {
 
 
     public void girisYap() {
+
         driver.get("https://www.hotelmycamp.com");
         driver.findElement(By.xpath("//*[@text()='Log in']")).click();
         Actions actions = new Actions(driver);
