@@ -7,7 +7,7 @@ import utilities.TestBase;
 
 import java.util.Set;
 
-public class C03_Cookies extends TestBase {
+public class C01_Cookies extends TestBase {
 
     @Test
     public void testCookies() {
