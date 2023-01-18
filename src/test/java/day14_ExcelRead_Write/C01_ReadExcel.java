@@ -29,6 +29,7 @@ public class C01_ReadExcel {
 
         //  Cell objesi olusturun row.getCell(index)
         Cell cell = row.getCell(2);
+
         System.out.println(cell);
     }
 }
